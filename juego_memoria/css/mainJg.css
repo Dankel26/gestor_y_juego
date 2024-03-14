@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+.head{
+    height: 15vh;
+    width: 100vW;
+    background-color: #d89090;
+    position: static;
+}
+
+.cont{
+    background-color: #7272aa;
+    height: 85vh;
+    width: 30vW;
+    position: absolute;
+    
+}
+
+.div{
+    background-color: aqua;
+    height: 85vh;
+    width: 70vw;
+    margin-left: 30vw;
+}
