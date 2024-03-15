@@ -21,6 +21,7 @@
 }
 
 .div{
+    position: absolute;
     background-color: aqua;
     height: 85vh;
     width: 70vw;
