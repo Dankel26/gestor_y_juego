@@ -1,29 +1,37 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
-    
+
 }
 
 
-.head{
+.head {
     height: 15vh;
     width: 100vW;
-    background-color: #d89090;
+    background-color: #c900ff;
+    ;
     position: static;
 }
 
-.cont{
-    background-color: #7272aa;
+.cont {
+    background-color: #00009f;
     height: 85vh;
     width: 30vW;
     position: absolute;
-    
+
 }
 
-.div{
+.div {
     position: absolute;
-    background-color: aqua;
+    background: rgb(201, 0, 255);
+    background: linear-gradient(180deg, rgba(201, 0, 255, 1) 13%, rgba(0, 0, 159, 1) 84%);
     height: 85vh;
     width: 70vw;
     margin-left: 30vw;
+}
+
+.tit {
+    width: 25vw;
+    height: auto;
+    margin-left:40vw;
 }
