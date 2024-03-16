@@ -1,23 +1,145 @@
-.caja{
-    width: 150px;
-    height: 150px;
-    border: 4px solid #000000 ;
-    background-color: #e0cdcd;
+.bodyc{
+    display: block;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.pos{
+    position: relative;
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
     
 }
 
-.pos{
-    margin-top: 6vh;
-    margin-left: 109px;
-    position: absolute;
+.pos #caja1{
 
-    display: grid;
-    width: 79%;
-    height: 79vh;
-    grid-template-columns: 0fr 0fr 0fr 0fr;
-    grid-template-rows: 0fr 0fr 0fr 0fr;
-    grid-gap: 1vw;
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
     
+}
+.pos #caja2{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja3{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja4{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja5{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja6{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja7{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja8{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja9{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja10{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja11{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja12{
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja13{
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja14{
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja15{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
+}
+.pos #caja16{
+
+    background-color:#000;
+    background-size: cover;
+    position: relative;
+
+
 }
 
 .pos :hover{
