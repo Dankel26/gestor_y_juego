@@ -12,7 +12,8 @@ console.log(posCartas);
 let movSuma = null;
 let scoreSuma = null;
 let reloj = false;
-let tiempo = 60;
+let tiempo = 3;
+let idTiempo=null;
 
 // RECOGER ELEMENTOS HTML
 let mostrarMov = document.getElementById('mov');
@@ -21,9 +22,12 @@ let mostrarTiempo = document.getElementById('tiempo');
 
 //FUNCIONES
 function tempReloj(){
-    setInterval(()=>{
+    idTiempo = setInterval(()=>{
         tiempo --;
         mostrarTiempo.innerHTML = `TIEMPO: ${tiempo}s`;
+        if(tiempo==0){
+            clearInterval(idTiempo);
+        }
     },1000)
 }
 
