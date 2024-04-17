@@ -1,4 +1,7 @@
 button{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
     height: 100px;
     width: 100px;
     background-color: #fff;
@@ -10,6 +13,13 @@ button:hover{
     background-color: rgb(170, 170, 170);
 }
 
+.btn{
+    font-size: medium;
+}
+
 .game{
-    background-color: rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center; /* en el eje y*/
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
 }
