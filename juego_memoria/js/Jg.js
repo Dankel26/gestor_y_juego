@@ -12,8 +12,8 @@ console.log(posCartas);
 let movSuma = null;
 let scoreSuma = null;
 let reloj = false;
-let tiempo = 10;
-let tiempoInicial = 10;
+let tiempo = 60;
+let tiempoInicial = 60;
 let idTiempo = null;
 
 // RECOGER ELEMENTOS HTML
