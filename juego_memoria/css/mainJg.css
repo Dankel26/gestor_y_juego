@@ -12,6 +12,14 @@ html{
     background: linear-gradient(0deg, rgba(91,0,119,1) 0%, rgba(252,0,255,1) 39%, rgba(252,0,255,1) 65%, rgba(201,0,255,1) 100%);
 }
 
+article{
+   display: flex;
+   justify-content: center;
+}
+p{
+    width: 260px;
+}
+
 .body{
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +43,7 @@ html{
     height: calc(100vh - 20vh);
     flex-grow: 1;
     text-align: center;
+    justify-content: center;
 }
 .cont2 {
     background-color: transparent;

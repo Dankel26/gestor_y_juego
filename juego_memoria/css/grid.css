@@ -13,6 +13,11 @@ button:hover{
     background-color: rgb(170, 170, 170);
 }
 
+a{
+    text-decoration: none;
+    color: #000;
+}
+
 .btn{
     font-size: medium;
 }
