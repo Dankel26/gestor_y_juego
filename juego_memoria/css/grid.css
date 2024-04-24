@@ -1,25 +1,30 @@
-.caja{
-    width: 150px;
-    height: 150px;
-    border: 4px solid #000000 ;
-    background-color: #e0cdcd;
-    
+button{
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border: #fff solid;
+    border-radius: 10px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgb(170, 170, 170);
 }
 
-.pos{
-    margin-top: 6vh;
-    margin-left: 109px;
-    position: absolute;
-
-    display: grid;
-    width: 79%;
-    height: 79vh;
-    grid-template-columns: 0fr 0fr 0fr 0fr;
-    grid-template-rows: 0fr 0fr 0fr 0fr;
-    grid-gap: 1vw;
-    
+a{
+    text-decoration: none;
+    color: #000;
 }
 
-.pos :hover{
-    background-color: #535c59;
+.btn{
+    font-size: medium;
+}
+
+.game{
+    display: flex;
+    justify-content: center; /* en el eje y*/
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
 }

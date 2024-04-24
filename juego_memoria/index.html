@@ -11,34 +11,69 @@
 </head>
 
 <body>
-    <header class="head">
-        <img src="recursos/mistery-15-3-2024 (1).gif" class="tit">
-
-    </header>
-    <article class="cont">
-
-    </article>
-    <section class="div">
-        <div class="pos">
-            <div class="caja">con1</div>
-            <div class="caja">cont2</div>
-            <div class="caja">con3</div>
-            <div class="caja">cont4</div>
-            <div class="caja">cont5</div>
-            <div class="caja">cont6</div>
-            <div class="caja">cont7</div>
-            <div class="caja">cont8</div>
-            <div class="caja">con9</div>
-            <div class="caja">cont10</div>
-            <div class="caja">con11</div>
-            <div class="caja">cont12</div>
-            <div class="caja">cont13</div>
-            <div class="caja">cont14</div>
-            <div class="caja">cont15</div>
-            <div class="caja">cont16</div>
+    <section class="body">
+        <header class="head">
+            <img src="recursos/mistery-15-3-2024 (1).gif" class="tit">
+        </header>
+        <div class="cont1">
+            <h1>HISTORIA</h1><br>
+            <article>
+                <p>
+                    El popular juego de memoria, basado en el reconocimiento de pares de tarjetas,
+                    surgió en Checoslovaquia a mediados de los años 60, cuando Princ trabajaba como
+                    mosaico en la Catedral de San Vito en Praga. El primer set del memorama fue emitido en 1965,
+                    con unas 10 000 unidades.
+                </p>
+            </article> <br> <br>
+            <h1> REGLAS </h1> <br>
+            <article>
+                <p>
+                    El objetivo es lograr memorizar la ubicación de las diferentes cartas con el fin de voltear
+                    sucesivamente las 2 cartas idénticas que formen pareja, para llevárselas.
+                    La partida se terminará cuando estén todas las parejas encontradas.
+                </p>
+            </article>
+        </div>
+        <div class="cont2">
+            <section class="game">
+                <table>
+                    <tr>
+                        <td><button id="0" onclick="revelar(0)"></button></td>
+                        <td><button id="1" onclick="revelar(1)"></button></td>
+                        <td><button id="2" onclick="revelar(2)"></button></td>
+                        <td><button id="3" onclick="revelar(3)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="4" onclick="revelar(4)"></button></td>
+                        <td><button id="5" onclick="revelar(5)"></button></td>
+                        <td><button id="6" onclick="revelar(6)"></button></td>
+                        <td><button id="7" onclick="revelar(7)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="8" onclick="revelar(8)"></button></td>
+                        <td><button id="9" onclick="revelar(9)"></button></td>
+                        <td><button id="10" onclick="revelar(10)"></button></td>
+                        <td><button id="11" onclick="revelar(11)"></button></td>
+                    </tr>
+                    <tr>
+                        <td><button id="12" onclick="revelar(12)"></button></td>
+                        <td><button id="13" onclick="revelar(13)"></button></td>
+                        <td><button id="14" onclick="revelar(14)"></button></td>
+                        <td><button id="15" onclick="revelar(15)"></button></td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+        <div class="cont3">
+            <h1 id="puntos">SCORE: 0</h1>
+            <h1 id="mov">MOVIMIENTOS: 0</h1>
+            <h1 id="tiempo">TIEMPO: 60s</h1><br>
+            <button class="btn"> <a href="index.html">REINICIAR</a> </button>
         </div>
     </section>
 
+    <!-- SCRIPT JS  -->
+    <script src="js/Jg.js"></script>
 </body>
 
 </html>
